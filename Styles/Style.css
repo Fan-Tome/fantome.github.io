@@ -1,0 +1,104 @@
+*{
+    font-family: segoe print;
+}
+
+body{
+    background-color: #24252A;
+    color:#ffb330;
+}
+
+.index-site{
+    color:#ffb330;
+}
+
+a {
+    font-size: 16px;
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    border: 1px #FFB330 solid ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+    margin: 0%;
+    padding: 14px;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hour,
+#separator,
+#minutes {
+  font-weight: bolder;
+  color: #ffb330;
+  
+}
+
+.timeBlock, .weatherBlock{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-site{
+    margin-left: 10px;
+}
+
+.nav-bar {
+    border: 1px #FFB330 solid;
+    margin-top: 15px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    overflow :auto;
+    margin: 0%;
+    padding: 15px;
+
+}
+
+.search-input{
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+.SI{
+    font-size: 2.2vh;
+    background-color: #24252A;
+    border: 1px #FFB330 solid;
+    border-radius: 30px;
+    overflow: hidden;
+    color: #FFB330;
+    margin: -25px;
+    padding: 20px;
+}
+
+
